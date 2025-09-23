@@ -20,3 +20,11 @@ javasource <==> github 공간
 
 2. gitignore 파일 작성
  .gitignore : 버전관리할 때 무시할 파일 기록
+
+3. 작성된 소스 버전관리
+  (1) 로컬 저장소에 관리할 파일 추가 : git add 관리할파일명
+  (2) 추가된 파일을 저장하고 확인하기 : git commit -m "메세지"
+
+
+4. 원격(remote)리포지토리(github)
+
