@@ -1,0 +1,42 @@
+Java
+- 웹개발 필수 언어
+- 대소문자 구분함
+  클래스명은 대문자로 시작
+  메소드명은 소문자로 시작
+- 자바는 클래스가 기본임
+
+1. 변수 : 메모리 내 저장공간
+ - 저장공간마다 담을 수 있는 값이 달라짐
+ - 타입 변수명 = 값;
+  - 타입 : byte,short,int,long,float, double, char, boolean
+  - 변수명 : 영어, 한글명 가능하나 영어를 사용함
+            영어소문자 사용(flag, curPos)
+  - int num = 10;
+  - 타입 : 정수형(byte,short,int,long), 문자형(char), 실수형(float,double), 논리형(boolean)
+  - 정수형(byte,short,int,long)
+    byte : 1byte 저장공간 / short : 2byte / int(기본형태) : 4byte / long : 8byte
+  - 실수형(float,double) : 소수점, 지수형태
+    float : 4byte / double(기본타입) : 8byte
+  - 문자형(char) : 홑따옴표 사용
+    char : 2byte 
+    char ch1 = 'a';
+  - 논리형(boolean) : true, false 값 표현 / 1 byte
+
+2. 상수 : 메모리 내 저장공간 + 한 번 저장하면 다른 값으로 변경 불가
+  - final 타입 상수명(대문자) = 값; 
+
+
+
+기본
+    bit : 0 or 1
+    byte : 8bit 00000000 / 00000001 ....
+
+    유니코드 : 전세계의 모든 문자를 컴퓨터에서 일관되게 표현하고 다룰 수 있도록 설계된 표준
+    a => 97  / A => 65
+    가 => 44032
+
+
+
+
+Python
+- 웹개발 가능하나 우리나라는 관공서,금융 업종에서는 자바를 주로 사용
