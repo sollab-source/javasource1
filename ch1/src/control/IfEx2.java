@@ -35,5 +35,41 @@ public class IfEx2 {
             grade = 'D';
         }
         System.out.println("등급 : " + grade);
+
+        switch (jumsu) {
+            case 100:
+            case 99:
+            case 98:
+            case 97:
+            case 96:
+            case 95:
+            case 94:
+            case 93:
+            case 92:
+            case 91:
+            case 90:
+                grade = 'A';
+                break;
+
+            default:
+                break;
+        }
+
+        switch (jumsu / 10) {
+            case 10:
+            case 9:
+                grade = 'A';
+                break;
+            case 8:
+                grade = 'B';
+                break;
+            case 7:
+                grade = 'C';
+                break;
+            default:
+                grade = 'D';
+                break;
+        }
+
     }
 }

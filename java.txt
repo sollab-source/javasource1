@@ -47,11 +47,37 @@ Java
  - if / switch
  if(조건식){ 수행할 문장 }
 
+6. 반복문 : 어떤 작업이 반복적으로 수행되도록 할 때 사용
+ - 종류 : for, while, do~while
+for (int i = 1; i <= 10; i++) {   
+    sum += i;
+}
+1) int i = 1; 실행
+2) i <= 10; 조건식 검사 => true
+3) for 구문 안으로 진입 후 구문 실행
+4) i++ 실행
+5) 조건식 검사 => 2) ~ 4) 실행
 
+for (int i = 0; i < 5; i++) {
+    for (int j = 0; j < 10; j++) {
+        System.out.print("*");
+    }
+    System.out.println();
+}
 
-
-
-
+1) 바깥쪽 for int i = 0;
+2) 바깥쪽 for i < 5;
+3) 안쪽 for int j = 0;
+4) 안쪽 for j < 10;
+5) System.out.print("*");
+6) 안쪽 for j++
+7) 안쪽 for j < 10;
+8) System.out.print("*");
+9) 6 ~ 8 수행
+10) j 가 10 이 되면  j < 10; 안쪽 for 문 종료
+11) System.out.println();
+12) i++;
+13) 바깥쪽 for i < 5;
 
 
 
