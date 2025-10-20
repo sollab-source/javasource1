@@ -1,0 +1,27 @@
+
+Throwable
+  Exception(예외)
+   종류
+   1) 컴파일 예외 : ClassNotFoundException
+   2) 런타임 예외 : ArithmeticException
+   
+   처리방법
+   1) 예외 처리
+     - try ~ catch
+        catch 작성 시
+         - 하나로 모든 exception 처리
+            try{}catch(Exception e){}
+         - 개별로 exception 처리
+           ① 다중 catch
+           ② 멀티 catch
+     - try ~ catch ~ finally
+       finally{ exception 발생여부와 상관없이 꼭 실행해야할 코드 작성}
+     - try ~ finally
+
+   2) 예외 던지기
+      메소드() throws 예외명, 예외명
+
+
+강제 Exception 발생시키기
+ - 사용자 정의 예외
+   throw new XXXException();
